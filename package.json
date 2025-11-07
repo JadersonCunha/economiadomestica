@@ -2,7 +2,7 @@
   "name": "economia-domestica-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jadersoncunha.github.io/economiadomestica",
+  "homepage": "https://jadersoncunha.github.io/economiadomestica/",
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.119",

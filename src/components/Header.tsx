@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ user, onLogout }) => {
       marginBottom: '2rem'
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <img src="/LOGO_TOPO.jpg" alt="Logo" style={{ width: '50px', borderRadius: '12px' }} />
+        <img src="./LOGO_TOPO.jpg" alt="Logo" style={{ width: '50px', borderRadius: '12px' }} />
         <h1 style={{ color: 'white', fontSize: '1.5rem' }}>Economia Doméstica</h1>
       </div>
       

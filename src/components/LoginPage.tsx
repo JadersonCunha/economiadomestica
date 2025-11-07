@@ -16,7 +16,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSignIn, loading }) => {
       padding: '20px'
     }}>
       <Card style={{ textAlign: 'center', maxWidth: '400px' }}>
-        <img src="/LOGO_TOPO.jpg" alt="Logo" style={{ width: '80px', marginBottom: '1rem' }} />
+        <img src="./LOGO_TOPO.jpg" alt="Logo" style={{ width: '80px', marginBottom: '1rem' }} />
         <h1 style={{ marginBottom: '0.5rem' }}>Economia Doméstica</h1>
         <p style={{ marginBottom: '2rem', color: '#666' }}>Gerencie suas finanças de forma inteligente</p>
         
