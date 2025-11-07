@@ -52,7 +52,6 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSignIn, loading }) => {
           {loading ? 'Entrando...' : 'Entrar com Google'}
         </Button>
       </Card>
-      <Footer />
     </div>
   );
 };

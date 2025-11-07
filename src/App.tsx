@@ -28,6 +28,7 @@ function App() {
       <>
         <GlobalStyle />
         <LoginPage onSignIn={signInWithGoogle} loading={loading} />
+        <Footer />
       </>
     );
   }
@@ -55,9 +56,8 @@ function App() {
           onDeleteExpense={deleteExpense}
           onShowForm={() => setShowForm(true)}
         />
-        
-        <Footer />
       </Container>
+      <Footer />
     </>
   );
 }
