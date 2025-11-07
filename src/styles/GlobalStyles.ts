@@ -34,6 +34,10 @@ export const Container = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
+  > *:last-child {
+    margin-top: auto;
+  }
 `;
 
 export const Card = styled.div`
