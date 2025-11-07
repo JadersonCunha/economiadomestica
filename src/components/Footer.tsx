@@ -4,10 +4,13 @@ import styled from 'styled-components';
 const FooterContainer = styled.footer`
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
-  padding: 2rem 1rem 1rem;
+  padding: 1.5rem 1rem;
   margin-top: auto;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  bottom: 0;
+  width: 100%;
 `;
 
 const FooterContent = styled.div`
@@ -58,12 +61,7 @@ const TechStack = styled.div`
   }
 `;
 
-const Signature = styled.div`
-  font-size: 0.8rem;
-  opacity: 0.7;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 1rem;
-`;
+
 
 export const Footer: React.FC = () => {
   return (
@@ -87,9 +85,7 @@ export const Footer: React.FC = () => {
           </div>
         </TechStack>
         
-        <Signature>
-          Desenvolvido com 💚 para gerenciamento financeiro pessoal
-        </Signature>
+
       </FooterContent>
     </FooterContainer>
   );
