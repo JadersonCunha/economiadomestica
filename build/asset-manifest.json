@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/economiadomestica/static/js/main.49b653b5.js",
-    "static/js/239.e39ab687.chunk.js": "/economiadomestica/static/js/239.e39ab687.chunk.js",
-    "static/js/213.f9c43a05.chunk.js": "/economiadomestica/static/js/213.f9c43a05.chunk.js",
-    "static/js/455.b7b272c0.chunk.js": "/economiadomestica/static/js/455.b7b272c0.chunk.js",
-    "index.html": "/economiadomestica/index.html",
-    "main.49b653b5.js.map": "/economiadomestica/static/js/main.49b653b5.js.map",
-    "239.e39ab687.chunk.js.map": "/economiadomestica/static/js/239.e39ab687.chunk.js.map",
-    "213.f9c43a05.chunk.js.map": "/economiadomestica/static/js/213.f9c43a05.chunk.js.map",
-    "455.b7b272c0.chunk.js.map": "/economiadomestica/static/js/455.b7b272c0.chunk.js.map"
+    "main.js": "./static/js/main.4ddbb228.js",
+    "static/js/239.e39ab687.chunk.js": "./static/js/239.e39ab687.chunk.js",
+    "static/js/213.f9c43a05.chunk.js": "./static/js/213.f9c43a05.chunk.js",
+    "static/js/455.b7b272c0.chunk.js": "./static/js/455.b7b272c0.chunk.js",
+    "index.html": "./index.html",
+    "main.4ddbb228.js.map": "./static/js/main.4ddbb228.js.map",
+    "239.e39ab687.chunk.js.map": "./static/js/239.e39ab687.chunk.js.map",
+    "213.f9c43a05.chunk.js.map": "./static/js/213.f9c43a05.chunk.js.map",
+    "455.b7b272c0.chunk.js.map": "./static/js/455.b7b272c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.49b653b5.js"
+    "static/js/main.4ddbb228.js"
   ]
 }
