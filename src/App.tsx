@@ -5,6 +5,7 @@ import { Header } from './components/Header.tsx';
 import { ExpenseForm } from './components/ExpenseForm.tsx';
 import { ExpenseList } from './components/ExpenseList.tsx';
 import { LoadingSpinner } from './components/LoadingSpinner.tsx';
+import { Footer } from './components/Footer.tsx';
 import { useAuth } from './hooks/useAuth.ts';
 import { useExpenses } from './hooks/useExpenses.ts';
 
@@ -54,6 +55,8 @@ function App() {
           onDeleteExpense={deleteExpense}
           onShowForm={() => setShowForm(true)}
         />
+        
+        <Footer />
       </Container>
     </>
   );

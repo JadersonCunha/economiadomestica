@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button } from '../styles/GlobalStyles.ts';
+import { Footer } from './Footer.tsx';
 
 interface LoginPageProps {
   onSignIn: () => void;
@@ -51,6 +52,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSignIn, loading }) => {
           {loading ? 'Entrando...' : 'Entrar com Google'}
         </Button>
       </Card>
+      <Footer />
     </div>
   );
 };
