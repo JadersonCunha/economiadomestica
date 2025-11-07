@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Button } from '../styles/GlobalStyles.ts';
-import { Footer } from './Footer.tsx';
 
 interface LoginPageProps {
   onSignIn: () => void;
